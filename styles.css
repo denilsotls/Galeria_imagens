@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.botao-categoria{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+footer{
+    height: 70px;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+}
+
+.active{
+    background-color: #102e11;
+}
+
+.box-imagens{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.imagem-item img {
+    max-width: 100%;
+    max-height: calc(100vh - 200px);   
+}
